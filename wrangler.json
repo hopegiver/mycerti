@@ -1,6 +1,6 @@
 {
   "compatibility_date": "2025-04-01",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "name": "mycerti",
   "upload_source_maps": true,
   "d1_databases": [
@@ -8,6 +8,18 @@
       "binding": "DB",
       "database_id": "34e1b7e4-cb5b-45aa-be6a-cf7def2b51be",
       "database_name": "mycerti-db"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MY_BUCKET",
+      "bucket_name": "mycerti-data"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "DOMAIN_MAPPING",
+      "id": "02f2a134cbd94fe1820b59c2c586b069"
     }
   ],
   "observability": {

@@ -9,7 +9,8 @@
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "strict": true
+    "allowJs": true,
+    "checkJs": false
   },
   "include": ["src"]
 }
