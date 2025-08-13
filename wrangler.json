@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "mycerti",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "34e1b7e4-cb5b-45aa-be6a-cf7def2b51be",
+      "database_name": "mycerti-db"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
